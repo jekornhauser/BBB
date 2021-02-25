@@ -8,7 +8,7 @@ function metadata(idnumber){
             panel.append("div").text(key + ": " + value);
         })
     });
-}
+};
 
 function buildTables(idnumber){
     d3.json("static/js/samples.json").then((data) => {
